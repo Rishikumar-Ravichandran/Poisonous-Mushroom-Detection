@@ -1,2 +1,6 @@
 # Poisonous-mushroom-detection
 This project focuses to classify mushrooms using machine learning techniques into poisonous or non-poisonous based on their 22 features like color, shape, odor, and size. In addition to the domain knowledge, the data mining methods are used for selecting the important features that are correlation matrix and univariate feature selection on which it is noted that odor has a high beneficial importance value. Four machine learning algorithms are used for classification that are Random Forest tree, Decision tree, K-nearest neighbors, and Naïve Bayes out of which the Decision tree provides the highest accuracy of than other three models.
+
+Dataset
+
+The data is collected from the UCI machine learning repository that was sourced by the Audubon Society Field Guide to North American Mushrooms. The dataset holds a total of 8124 rows with 22 attributes that include cap-shape, cap-color, odor, gill-size, gill-color, stalk-root, ring-type, and habitat of the mushroom. All the 22 attributes in the dataset contain the perfect feature of mushrooms and none of the attributes are named irrelevant or changed using PCA. In this dataset, a total of 23 different species of mushrooms are taken in count from the Agaricus and Lepiota family.
